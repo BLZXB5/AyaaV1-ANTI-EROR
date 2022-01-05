@@ -324,11 +324,11 @@ try {
 		}
 		if (antibot === true) return
 		const katalog = (teks) => {
-             res = helga.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_© Helga Zex_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
+             res = helga.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_© BLZXB5_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
              helga.relayWAMessage(res)
         }
         const grupinv = (teks) => {
-        	grup = helga.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6282138919347-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/IlpQRKWDZed0GgVHmYJUbl', "groupName": `${NamaBot}`, "footerText": "*_© Helga Zex_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
+        	grup = helga.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6283117436733-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/DebwMOR22xV9dzToTx4NU8', "groupName": `${NamaBot}`, "footerText": "*_© BLZXB5_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
             helga.relayWAMessage(grup)
         }
         //FUNCTION update eswe
@@ -343,7 +343,7 @@ let settingstatus = 0;
       let _uptime = process.uptime() * 1000;
       let uptime = clockString(_uptime);
 
-await helga.setStatus(`⛾ AYAABOT || ⏳ Runtime: ${uptime} || 🎧 Uptime: ${kyun(os.uptime())}`).catch((_) => _);
+await helga.setStatus(`⛾ MiyukiBotz || ⏳ Runtime: ${uptime} || 🎧 Uptime: ${kyun(os.uptime())}`).catch((_) => _);
       settingstatus = new Date() * 1;
     }
 		idttt = []
@@ -428,7 +428,7 @@ var imageTime = await getBuffer('https://i.pinimg.com/736x/81/98/aa/8198aaf07083
 if(time2 < "06:00:00"){
 var imageTime = await getBuffer('https://i.pinimg.com/736x/15/8e/ea/158eea299c01433aae6744599d2fdc3a.jpg')
 }
- // FAKE REPLY BY YOGI PEWE
+ // FAKE REPLY BY BLZXB5
 // PRODUCT
 const ftok = {
 key: {
@@ -1015,13 +1015,13 @@ if (!settings.autorecording) {
 helga.updatePresence(from, Presence.recording)
 }
 if (budy.startsWith('helga')){
-sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*_© Helga Zex_*", [{buttonId: 'igm', buttonText: {displayText: 'Instagram'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*_© BLZXB5_*", [{buttonId: 'igm', buttonText: {displayText: 'Instagram'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 }
 if(isButton == 'igm'){
-reply('http://instagram.com/helga_store20')
+reply('http://instagram.com/dxv_54')
 }
 if(isButton == 'ytm'){
-reply('https://youtube.com/c/HelgaZexs妥')
+reply('https://youtube.com/channel/UC7zrjEK3mvDBOY3PeXbasJQ')
 }
 
    const sotoy = [
@@ -1127,10 +1127,10 @@ Jika sudah dipahami rules-nya, silakan ketik *.menu* untuk memulai!
 Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan AyaaBott-
 😖🙏
 
-For GitHub : https://github.com/AyaaChan
-YouTube Helga : https://youtube.com/c/HelgaZexs妥
+For GitHub : https://github.com/BLZXB5
+YouTube Helga : https://youtube.com/channel/UC7zrjEK3mvDBOY3PeXbasJQ
 `
-sendButLocation(from, `${menu}`, "*_©AyaaChan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`ping`,buttonText:{displayText:'SPEED BOT'},type:1},{buttonId:`store`,buttonText:{displayText:'SEWABOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_Miyuki_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`ping`,buttonText:{displayText:'SPEED BOT'},type:1},{buttonId:`store`,buttonText:{displayText:'SEWABOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1178,7 +1178,7 @@ Silahkan Pilih Untuk Menampilkan Menu Bot
 
     _*『 BOT INFORMATION 』*_
 
-⛱️ Device : Poco X3 
+⛱️ Device : Oppo F9 
 🗺️ Wa Version : 2.21.11.17
 💬 OS Version : 11
 ♍ MNC : 001
@@ -1186,7 +1186,7 @@ Silahkan Pilih Untuk Menampilkan Menu Bot
 🌐 Platfrom : ${os.platform()}
 📳 Mode : ${publik ? 'Public' : 'Self'}
 ☢️ Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}
-👨‍💻 Name Creator : Helga Zex
+👨‍💻 Name Creator : BLZXB5
 
 
     _*『 USER INFORMATION 』*_
@@ -1399,13 +1399,13 @@ case 'bugreport':
               if (args.length < 1) return reply(`Ketik ${prefix}bugreport [fiturnya] [Error Nya Gimana]`) 
               teks = args.join(' ')
               reply('Terima Kasih Telah Melaporkan Bug Pada Owner, Jika Itu Sekedar Iseng Maka Akan Di Ban Oleh Bot!')
-              helga.sendMessage('6282138919347@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
+              helga.sendMessage('6283117436733@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
 case 'tos':
 					const tiez = moment().tz('Asia/Jakarta').format("HH:mm:ss")
 								kala = fs.readFileSync(`./tos.png`)
 					terms = `*TERMS OF SERVICE* | *${tiez}*
 
-Ayaa BOT merupakan project bot WhatsApp yang menggunakan Rdp, dijalankan menggunakan engine nodejs v14.0.0
+MiyukiBot merupakan project bot WhatsApp yang menggunakan Rdp, dijalankan menggunakan engine nodejs v14.0.0
 
 Adapun persyaratan yang telah dibuat, antara lain:
 
@@ -1418,7 +1418,7 @@ Adapun persyaratan yang telah dibuat, antara lain:
 *4*. Didalam bot ini terdapat fitur berbahaya jangan di salah gunakan!! Apa bila di salah gunakan anda akan SAYA BANNED
 *5*. Jika menemukan bug/semacamnya lapor kepada owner Terimakasih....
 
-Owner: HELGA | wa.me/6282138919347`
+Owner: Eichan | wa.me/6281331493321`
 helga.sendMessage(from, kala, image, {quoted: ftrol, thumbnail: fs.readFileSync('./tos.png'), caption: terms})
 break
 /*case 'bokep':
@@ -1519,7 +1519,7 @@ case 'store':
 ៸ *🐻 .𝆬 More info 🐻* ִֶָ  ˓
 *🪴 ˖࣪ ▸ Mau sewa ? Cp nomor dibawah ᭡*
 *꒷🎍Wa Owner*
-*✆ { wa.me/6282138919347 }*
+*✆ { wa.me/6283117436733 }*
 
 *🍄 ָ࣪ ۰ Test Bot ꒦꒷꒷꒦*
 *🌵 ࣪˒ ›› Nomer Bot > Chat Owner Bot
@@ -1527,7 +1527,7 @@ case 'store':
 *ՙ 🍃 ៸៸ Yang Copy Miskin*
 
 *🐢 › SC NO PASARAN › 🐢*`
-sendButLocation(from, `${menu}`, "_AyaaaChan🌸_", {jpegThumbnail:logonya,name:""}, [{buttonId:`menu`,buttonText:{displayText:'OKE'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "_MiyukiBot_", {jpegThumbnail:logonya,name:""}, [{buttonId:`menu`,buttonText:{displayText:'OKE'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1595,11 +1595,11 @@ Sanksi: *‼️ PERMANENT BLOCK ‼️*
 
 Jika sudah dipahami rules-nya, silakan ketik *.allmenu* untuk memulai!
 
-⚠️ Segala kebijakan dan ketentuan ChikaBot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
+⚠️ Segala kebijakan dan ketentuan MiyukiBot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
 
 Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan AyaaBott-
 😖🙏`
-menu =`_AyaaaChan🌸_`
+menu =`_Miyuki_`
 gbutsan = [
 {buttonId:`store`,buttonText:{displayText:'𝙎𝙀𝙒𝘼 𝘽𝙊𝙏🛍️'},type:1}
 ]
@@ -1663,7 +1663,7 @@ Jika sudah dipahami rules-nya, silakan ketik *.allmenu* untuk memulai!
 
 Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan AyaaBott-
 😖🙏`
-sendButLocation(from, `${menu}`, "_*© Helga Zex*_", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'SIAP OM'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "_*© BLZXB5*_", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'SIAP OM'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 break*/
 case 'verify':
@@ -1713,7 +1713,7 @@ case 'command':
  stod = `${sender}`
  listMsg = {
  buttonText: 'LIST MENU',
- footerText: '*_© Helga Zex_*',
+ footerText: '*_© BLZXB5_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
@@ -1837,7 +1837,7 @@ _え ${prefix}bukatime_
 _え ${prefix}tutuptime_
 _え ${prefix}nano_             
  `
-sendButLocation(from, `${menu}`, "*_© AyaaChan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© BLZXB5_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1845,7 +1845,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` AyaaChan`
+menu =` MiyukiChan`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -1978,7 +1978,7 @@ _え ${prefix}sticktag [ _nama sticker_ ]_
 _え ${prefix}totag [ _reply media_ ]_        
        
  `
-sendButLocation(from, `${menu}`, "*_© AyaaChan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© BLZXB5_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1986,7 +1986,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` AyaaChan`
+menu =` MiyukiChan`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2061,7 +2061,7 @@ _え ${prefix}puki_
 _え ${prefix}pantex_        
        
  `
-sendButLocation(from, `${menu}`, "*_© AyaaChan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© BLZXB5_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2069,7 +2069,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` AyaaChan`
+menu =` MiyukiChan`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2156,7 +2156,7 @@ _え ${prefix}otaku [ _search_ ]_
 _え ${prefix}komiku [ _search_ ]_        
        
  `
-sendButLocation(from, `${menu}`, "*_© AyaaChan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© BLZXB5_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2164,7 +2164,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` AyaaChan`
+menu =` MiyukiChan`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2236,7 +2236,7 @@ _え ${prefix}thunder_
 _え ${prefix}harry_
        
  `
-sendButLocation(from, `${menu}`, "*_© AyaaChan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© BLZXB5_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2244,7 +2244,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` AyaaChan`
+menu =` MiyukiChan`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2299,7 +2299,7 @@ _え ${prefix}addimage_
 _え ${prefix}delimage_        
        
  `
-sendButLocation(from, `${menu}`, "*_© AyaaChan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© BLZXB5_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2307,7 +2307,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` AyaaChan`
+menu =` MiyukiChan`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2372,7 +2372,7 @@ _え ${prefix}detikvn_
 _え ${prefix}detikvideo_  
        
  `
-sendButLocation(from, `${menu}`, "*_© AyaaChan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© BLZXB5_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2380,7 +2380,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` AyaaChan`
+menu =` MiyukiChan`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2430,7 +2430,7 @@ _え ${prefix}milf_
 _え ${prefix}cosplay_        
        
  `
-sendButLocation(from, `${menu}`, "*_© AyaaChan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© BLZXB5_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2438,7 +2438,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` AyaaChan`
+menu =` MiyukiChan`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2555,7 +2555,7 @@ _え ${prefix}kemonomimi_
 _え ${prefix}nsfw_avatar_        
        
  `
-sendButLocation(from, `${menu}`, "*_© AyaaChan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© BLZXB5_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2563,7 +2563,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` AyaaChan`
+menu =` MiyukiChan`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2611,7 +2611,7 @@ _え ${prefix}tebakgambar_
 _え ${prefix}caklontong_        
        
  `
-sendButLocation(from, `${menu}`, "*_© AyaaChan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© BLZXB5_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2619,7 +2619,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` AyaaChan`
+menu =` MiyukiChan`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2691,7 +2691,7 @@ _え ${prefix}sharelock [ _teks1|teks2_ ]_
         
        
  `
-sendButLocation(from, `${menu}`, "*_© AyaaChan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© BLZXB5_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2699,7 +2699,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` AyaaChan`
+menu =` MiyukiChan`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2730,7 +2730,7 @@ break
  stod = `${sender}`
  listMsg = {
  buttonText: 'Shop Menu🌿',
- footerText: '*_© Helga Zex_*',
+ footerText: '*_© BLZXB5_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
@@ -4199,7 +4199,7 @@ break
 		case 'sc':
 		case 'sourcecode':
 		anu =`   『 YOUTUBE 』
-│◦➛Name : Helga Zex
+│◦➛Name : BLZXB5
 │◦➛Link : https://youtube.com/channel/UCIvY2o-KctmlKWvXzqrXuWw
 └──────[ YOUTUBE ]──────❒`
  
@@ -4210,7 +4210,7 @@ break
 ]
 const btnskuy = {
     contentText: `${anu}`,
-    footerText: '*_©Helga Zex_*',
+    footerText: '*_©BLZXB5_*',
     buttons: buttons,
     headerType: 1
 }
